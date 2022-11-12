@@ -60,9 +60,6 @@ def main():
 
         missed[x]=miss
 
-    print(total)
-    print(attnd)
-    print(missed)
     print("Attendance %".center(50, "-"), "\n")
     for key in total:
         attndper = round((attnd[key]) / (total[key] + missed[key]) * 100, 2)
