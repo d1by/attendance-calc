@@ -1,6 +1,5 @@
 import datetime
 import sys
-import csv
 
 def main():
     
